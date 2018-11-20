@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+  
+<!--HEADER-->
+<header>
+    <!--MAIN NAVIGATION-------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <!-- NAVBAR BRAND-------------------------------------------------------------->
+        <a href="#" class="navbar-brand"><img class="navbar-brand" src="img/imgSALINA/logo/salina.png" width="100" height="100" alt="restaurant logo Salina"></a>
+        <!-- NAVBAR TOGGLER-------------------------------------------------------------->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav  ">
+               <li class="nav-item">
+                    <a href="index.html" class="nav-link">SALINA</a>
+                </li
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reservation.html" class="nav-link">Location &amp; Reservations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catering.html" class="nav-link">Catering &amp; Private Events</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!---------------------------------------------------------------------END-MAIN NAVIGATION----------------------------->
+</header>
+<!-------------------------------------END HEADER ---------------------------------------------------------------------->
+<!-------------------------------------BEGIN SECTION MAIN CONTENT ----------------------------------------------------->
+<section class="main-content ">
+    
+     <!-----------------CAROUSEL JUMBOTRON, INDICATORS START------------------------------------------------------------>
+
+<!-- Carousel-indicators -------------------------------------------------------------------------------------->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  
+  <!-- Carousel-inner --------------------------------------------------------------------------------------------->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/imgSALINA/imgreservation/reservation1.jpg" alt="image plated food">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/imgSALINA/imgreservation/reservation2.jpg" alt="image in front of main restaurant counter">
+    </div>
+  
+  <!-- Carousel-Controls ---------------------------------------------------------------------------------------->
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+     
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        
+<!-----------------CAROUSEL JUMBOTRON, INDICATORS END------------------------------------------------------------>
+    <br>
+    
+    
+    <!-- LOCATION -------------------------------------------------------------------------------------------------->
+    <h2>Location</h2>
+    
+    <section>
+        <container>
+
+        <div class="col-12">
+            <p>HOURS<br>
+            Tues-Thurs: 11:30 AM - 10:00 PM<br>
+            Fri-Sat: 11:30 AM - 11:00 PM<br>
+            </p>
+        </div>
+        <div class="col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12093.378479463225!2d-74.01884154381852!3d40.73244188268931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ec5a5bb655%3A0xb3d5f51c1e6c624e!2s184+Christopher+St%2C+New+York%2C+NY+10014!5e0!3m2!1sen!2sus!4v1539493592217" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="map" alt="google map"></iframe>
+        </div>
+    </div>
+    </container>
+</section>
+<br>
+    <br>
+    
+    <!------------------------------------------------------------------------------RESERVATIONS FORM --------------------------------------------------------------------------------->
+    
+      <section>
+        <div class="container">
+        <div class="row">
+        <div class="col-12">
+           <h2>RESERVATIONS</h2>
+                   <p>Throwing a personal party, corporate event, or meeting? Learn about Salina’s private dining options.</p>
+            <form action="">
+               <form>
+                        <input type="text" name="firstName" placeholder="First Name" />
+                         <input type="text" name="lastName" placeholder="Last Name" />
+                        <input type="tel" name="email" placeholder="Phone Number" />
+                        <input type="email" name="email" placeholder="Email Address" />
+                         <input type="time" name="usr_time" placeholder="Time" />
+                         <input type="date" name="date" placeholder="Date" />
+                         <br>
+                         
+                         
+                         
+                         
+                         
+                        <button type="button" class="btn btn-primary" 
+                        data-toggle="modal" data-target="#exampleModalLong">
+                          Submit Reservation Request </button>
+                          
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Thank you for your Reservation </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A reservation number and schedule has been send to you through text message and email. Please give your reservation number while check-in at the restaurant. </p>
+      </div>
+      <div class="modal-footer">
+        <p>See you soon</p>
+      </div>
+    </div>
+  </div>
+</div>  
+                        
+                        <!--<input type="submit" name="submit" value="SUBMIT RESERVATION REQUEST" /> -->
+                        
+                        
+            </form>
+           <!-- <p> Thank you for your reservation. A reservation number and schedule has been send to you through text message and email. Please give your reservation number while check-in at the resturent. See you soon. </p> -->
+        </div>
+        </div>
+        </div>
+        </section>
+<br>
+
+
+<!---------------------------------------------------------------------------------END RESERVATIONS FORM------------------------------------------------------->
+    
+    
+    
+    
+    
+    
+    
+    
+<!-------------------------------------End OF THE SECTION ----------------------------------------------------->
+    <!--FOOTER ---------------------------------------------------------------------------------------------------->
+    <footer>
+        <div class="row">
+            <div class="col-12">
+                <div>
+                    <form>
+                        <div>
+                            <input type="text" name="firstName" placeholder="First Name" />
+                            <input type="text" name="lastname" placeholder="Last Name" />
+                        </div>
+                        <div>
+                            <input type="email" name="email" placeholder="Email" />
+                            <input type="submit" name="nsubmit" value="Join" />
+                        </div>
+                    </form>
+                </div>
+                <!----------FOOTER FORM ------------------------------------------------------------------------------->
+                <br>
+                <br>
+                <!----------------------------------------------------------BEGINNING SOCIAL ----------------------->
+                <div>
+                    <span>Follow Us:</span>
+                    <a href="#"><span>Facebook</span></a>
+                    <a href="#"><span>Twitter</span></a>
+                    <a href="#"><span>Instagram</span></a>
+                </div>
+            </div>
+            <!----------------------------------------------------------END SOCIAL ------------------------------------>
+            <br>
+            <br>
+             <!----------------------------------------------------------CONTACT US------------------------------------->
+            <div class="col-12">
+                <span>Contact Us:</span>
+                <span>184 Christopher Street</span>
+                <span>New York, NY 10014</span>
+                <span>212-235-5878</span>
+                <span>info@salinanyc.com</span>
+                <br>
+            </div>
+             <br>
+             
+            <!-----------------------------------------------------------------------------------------CONTACT US END---->
+            <div class="col-12">
+                <span>&copy;2018 SALINA All rights reserved.</span>
+            </div>
+        </div>
+        <!--------------------------------------END OF ROW------------------------------------------->
+    </footer>
+    <!--------------------------------------FOOTER END------------------------------------------->
+
+
+
+    <!-------------------------------------End of  FOOTER ----------------------------------------------------->
+
+    <!--JQUERY AND BOOTSTRAP JS FILES ----->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--OUR JS ----->
+    <link rel="stylesheet" href="">
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
